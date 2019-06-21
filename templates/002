@@ -5,5 +5,5 @@
 --backup-how=hot \
 --backup-type=custom \
 --snapshot=doquiesce \
---backup-vms="awx,blueiris,certificates,confluence,nut,unifi,usenet" \
+--backup-vms="awx,blueiris!recordings-000001.vmdk,certificates,confluence,nut,unifi,usenet" \
 --exec=yes >> {{ xsibackup_working_dir }}/xsibackup/var/logs/cron.log
