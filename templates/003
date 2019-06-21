@@ -5,5 +5,5 @@
 --backup-how=cold \
 --backup-type=custom \
 --snapshot=doquiesce \
---backup-vms="blueiris!recordings-000001.vmdk" \
+--backup-vms="blueiris!recordings.vmdk" \
 --exec=yes >> {{ xsibackup_working_dir }}/xsibackup/var/logs/cron.log
