@@ -5,9 +5,9 @@ xsibackup_working_dir: /vmfs/volumes/files/Misc/VM
 xsibackup_backup_dir: "{{ xsibackup_working_dir }}/Backups"
 xsibackup_jobs:
   - name: '002'
-    cron: '0 16 * * *'
+    cron: '0 12 * * *'
   - name: '003'
-    cron: '0 14 * * *'
+    cron: '0 13 * * *'
 xsibackup_cleaner:
   cron: '0 19 * * *'
   days_to_keep: 5
