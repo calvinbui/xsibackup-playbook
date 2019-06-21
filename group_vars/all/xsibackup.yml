@@ -6,6 +6,8 @@ xsibackup_backup_dir: "{{ xsibackup_working_dir }}/Backups"
 xsibackup_jobs:
   - name: '002'
     cron: '0 16 * * *'
+  - name: '003'
+    cron: '0 14 * * *'
 xsibackup_cleaner:
   cron: '0 19 * * *'
   days_to_keep: 5
