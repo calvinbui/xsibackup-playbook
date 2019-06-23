@@ -1,7 +1,7 @@
 {{ xsibackup_working_dir }}/xsibackup/xsibackup \
 --description="XSITools backup of VMs" \
 --backup-id=003 \
---backup-point={{ xsibackup_backup_dir }}/blueiris \
+--backup-point={{ xsibackup_backup_dir }}/backup-$(date -I) \
 --backup-how=cold \
 --backup-type=custom \
 --snapshot=doquiesce \
