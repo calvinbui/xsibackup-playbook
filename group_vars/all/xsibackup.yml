@@ -1,7 +1,7 @@
 ---
 
 xsibackup_version: '11.2.5'
-xsibackup_working_dir: /vmfs/volumes/files/Backup/VM
+xsibackup_working_dir: /vmfs/volumes/files/Backups/VM
 xsibackup_backup_dir: "{{ xsibackup_working_dir }}/Backups"
 xsibackup_jobs:
   - name: '002'
